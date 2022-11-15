@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    background-color: black;
+    box-sizing: border-box;
+    font-family: Helvetica,Arial, sans-serif;
+    color: seashell;
+    opacity: 0.9;
+}
+
+header {
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:69px;
+}
+
+li {
+    text-decoration: underline;
+    display: inline;
+    padding: 10px;
+    font-size: 22px;
+    
+}
+
+header img {
+    height:50px;
+    margin-left: 10px;
+}
+
+.mission-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.background-img {
+    background-image: url("./Assets/background.jpg");
+    display: flex;
+    align-items: center;
+    height: 700px;
+    width: 1200px;
+}
+
+.background-img div {
+    background-color: black;
+    opacity: 1;
+    color: white;
+    width: 1200px;
+    text-align: center;
+    height: 100px;
+    padding:20px;
+}
