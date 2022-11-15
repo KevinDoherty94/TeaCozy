@@ -49,4 +49,38 @@ header img {
     text-align: center;
     height: 100px;
     padding:20px;
+    
+}
+
+.headline {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width:1000px;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.image-wrap img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+.location-flex {
+    background-image: url("./Assets/locations\ background.jpg");
+    height: 500px;
+    width: 1000px;
+}
+
+.location-flex div {
+    opacity: 1;
+    background-color: black;
+    width: 300px;
 }
